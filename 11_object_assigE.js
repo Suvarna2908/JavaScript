@@ -28,10 +28,8 @@ const axisBank = {
         console.log(`AxisBankDetails : Name Of Bank :${this.bankName}, Location:${this.location},Acc No :${this.accountNo},IFSC : ${this.ifsc}, Interest Rate : ${this.interestRate}`);
         
     }
-
-
-
 };
+
 
 const hdfcBank = {
 
@@ -47,6 +45,7 @@ const hdfcBank = {
         
     }
 };
+
 
 const yesBank = {
 
