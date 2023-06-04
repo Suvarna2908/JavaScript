@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Session Storage</title>
+</head>
+
+<body>
+    <h2>Session storage</h2>
+
+    <script>
+        //set or add item
+        window.sessionStorage.setItem("name","Elon");
+        window.sessionStorage.setItem("country","US");
+        window.sessionStorage.setItem("pin","342321");
+        
+        //remove an item
+        window.sessionStorage.removeItem("pin");
+
+        //get Item
+        const nameItem = window.sessionStorage.getItem("country");
+        console.log(nameItem);
+
+
+    </script>
+
+
+
+
+
+</body>
+
+
+</html>
