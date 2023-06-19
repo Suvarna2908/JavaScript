@@ -132,11 +132,9 @@ console.log(multipleOfFive);
 console.log(" Is number 115 available in array ");
 arrayNumbers.includes(115);
 
-
 //11) Is number 23 available in array
 console.log(" Is number 23available in array ");
 arrayNumbers.includes(23);
-
 
 
 //12) insert numbers 55,66 before index 3 and log on array.
@@ -145,7 +143,6 @@ console.log("10) insert numbers 55,66 before index 3 and log on array.");
 console.log("Original array :",arrayNumbers);
 arrayNumbers.splice(2,0,55,66);
 console.log("After insertion of 55 & 66 ",arrayNumbers);
-
 
 //13) delete 3 elements starting from index 4 & log arrays on console.
 console.log("13) delete 3 elements starting from index 4 & log arrays on console.");

@@ -6,6 +6,7 @@ function printFibonacci(n) {
     console.log(`${b}`);
     for (let i = 2; i < n; i++) {
       c = a + b;
+      
       console.log(`${c}`);
       a = b;
       b = c;
